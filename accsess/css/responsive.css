@@ -1,0 +1,284 @@
+/* Mobile - tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .none-on-mobile-tablet {
+        display: none;
+    }
+
+    .header {
+        height: 120px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    }
+
+    .header-list-product::before {
+        display: none;
+    }
+
+    .header-category {
+        display: block;
+    }
+
+    .app__container {
+        margin-top: -10px;
+    }
+
+    .category-tablet-mobile {
+        margin-top: 174px;
+        display: inline-flex;
+    }
+
+
+    .footer_folow,
+    .footer_introduce,
+    .footer_category {
+        margin-left: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .header-cart {
+        margin-right: -70px;
+    }
+
+    .header-list-product {
+        position: fixed;
+        max-height: 24vh;
+        margin-right: 0;
+        width: 100%;
+        padding: 0 88px;
+    }
+
+    .product-item-price {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .icon-vote {
+        margin-left: 22px;
+        margin-right: 6px;
+    }
+
+    .product-item-origin {
+        justify-content: space-around;
+    }
+
+    .category-tablet-mobile {
+        display: flex !important;
+        justify-content: space-around;
+    }
+
+    .category-link {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+    /* Trang chủ */
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header-list-product {
+        position: fixed;
+        max-height: 40vh;
+        margin-right: 0;
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .header__notify {
+        width: 96vw;
+    }
+
+    .header__navbar-list {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header__navbar-item-link {
+        font-size: 1.6rem;
+    }
+
+    .help_mobile {
+        margin-left: -4px;
+    }
+
+    .box-account {
+        font-size: 1.6rem;
+    }
+
+    .logout {
+        margin-right: 8px;
+    }
+
+    .header-box-history {
+        width: 100vh;
+        margin-left: -7px;
+    }
+
+    .header-product-buy-item {
+        padding: 8px 6px 15px 6px;
+    }
+
+    .container-pagination {
+        padding: 20px 0;
+    }
+
+    .pagination-item {
+        font-size: 1.4rem;
+        padding: 2px 4px;
+    }
+
+    .category-item__link {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-cart {
+        margin-right: -18px;
+        margin-left: -09px;
+    }
+
+    .header__search-select {
+        width: 95px;
+    }
+
+    .app__container {
+        padding: 0 6px;
+    }
+
+    .product-list-star {
+        margin-left: 16px;
+    }
+
+    .customer-care-heading,
+    .footer_introduce-heading,
+    .footer_category-heading,
+    .footer_folow-heading,
+    .footer_download-heading {
+        font-size: 1.6rem;
+    }
+
+    .customer_care span,
+    .footer_introduce span,
+    .footer_category span,
+    .footer_folow span {
+        font-size: 1.5rem;
+    }
+
+    /* Register */
+    .modal-register_title {
+        margin: 8px 0 14px 4px;
+        font-size: 22px;
+    }
+
+    .logo-register {
+        width: 90px;
+        height: 94px;
+    }
+
+    .modal__header {
+        margin: 24px 0 28px 0;
+    }
+
+    .modal__inner {
+        width: 100%;
+    }
+
+    .linkLogin,
+    .modal__header-register {
+        font-size: 20px;
+    }
+
+    #username,
+    #password,
+    #gmail,
+    #re_password {
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .modal__des-item {
+        font-size: 15px;
+    }
+
+    .return-register,
+    .register {
+        padding: 10px 18px;
+    }
+
+    .modal__infor,
+    .modal__des,
+    .modal__control {
+        margin: 25px 10%;
+    }
+
+    .modal__connection-google,
+    .modal__connection-face {
+        padding: 10px 16px;
+    }
+
+    .modal__connection {
+        padding: 14px 0;
+    }
+
+    /* Login */
+    .modal-login_title {
+        margin: 8px 0 14px 4px;
+        font-size: 22px;
+    }
+
+    .logo-login {
+        width: 90px;
+        height: 94px;
+    }
+
+    .modal__header {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .modal__header-register,
+    .linkRegister {
+        font-size: 20px;
+    }
+
+    .username-login,
+    .password-login {
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .modal__option {
+        font-size: 15px;
+    }
+
+    .return-login,
+    .login {
+        padding: 10px 18px;
+    }
+
+    .modal__connection-login {
+        padding: 14px 0;
+    }
+}

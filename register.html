@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./accsess/css/register.css">
+    <link rel="stylesheet" href="./accsess/css/responsive.css">
+    <title>Đăng ký</title>
+</head>
+
+<body>
+    <div class="modal-register">
+        <div class="modal-register_title">
+            <a href="index.html">
+                <img src="accsess/img/logoShop.jpg" class="logo-register" alt="">
+            </a>
+            <p>Đăng ký</p>
+        </div>
+        <div class="modal__body-register">
+            <div class="modal__inner">
+                <div class="modal__header">
+                    <h3 class="modal__header-register">Đăng ký</h3>
+                    <a class="linkLogin" href="login.html">Đăng nhập</a>
+                </div>
+                <div class="modal__infor">
+                    <div class="form-group">
+                        <input type="text" id="username" class="form-control input username"
+                            placeholder="Nhập tên đăng nhập" name="username">
+                        <span class="form-message mess-username"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="gmail" class="form-control input gmail" placeholder="Nhập gmail"
+                            name="gmail">
+                        <span class="form-message mess-gmail"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="password" class="form-control input password"
+                            placeholder="Nhập mật khẩu" name="password">
+                        <span class="form-message mess-pass"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="re_password" class="form-control input re_password"
+                            placeholder="Nhập lại mật khẩu" name="re_password">
+                        <span class="form-message mess-repass"></span>
+                    </div>
+                    <div class="form-group">
+                        <span id="btn_error" class="form-message"></span>
+                    </div>
+                </div>
+                <div class="modal__des">
+                    <spand class="modal__des-item">
+                        Bằng việc đăng ký, bạn đã đồng ý với chúng tôi về <a href="" class="modal_des-item">Điều
+                            khoản dịch
+                            vụ</a> & <a href="" class="modal_des-item">Chính sách bảo mật</a></spand>
+                </div>
+                <div class="modal__control">
+                    <a class="return-register" href="index.html">Trở lại</a>
+                    <button type="" id="submit" class="register">Đăng ký</button>
+                </div>
+                <div class="modal__connection">
+                    <button class="modal__connection-face">
+                        <i class="icon-facebook fa-brands fa-facebook"></i>Kết
+                        nối
+                        với Facebook</button>
+                    <button class="modal__connection-google">
+                        <i class="icon-google fa-brands fa-google"></i>Kết
+                        nối
+                        với
+                        Google</button>
+                </div>
+                <div class="modal__end"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./register.js"></script>
+
+</body>
